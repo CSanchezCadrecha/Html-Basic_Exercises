@@ -1,0 +1,103 @@
+body {
+    width: 100%;
+    background-color: pink;
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    font-family: "Indie Flower", cursive;
+  }
+
+  body header {
+    width: 100%;
+  }
+
+  body header h1 {
+    color: rgb(38, 97, 38);
+    margin-left: 200px;
+  }
+
+  body header #banner {
+    width: 75%;
+    background-image: url(../assets/lasagna.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-left: 190px;
+    margin-right: 100px;
+    border-radius: 5%;
+  }
+
+  body .title-section {
+    color: rgb(38, 97, 38);
+    margin-left: 20px;
+  }
+
+  body main {
+    width: 100%;
+  }
+
+  body main #first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 44px;
+    margin-top: 20px;
+  }
+
+  body main #ingredients {
+    width: 40%;
+    height: 25%;
+  }
+
+  body main #ingredients ul {
+    list-style: none;
+  }
+
+  body main #time {
+    width: 15%;
+    background-color: rgba(66, 158, 110, 0.636);
+    border-radius: 5%;
+  }
+
+  body main #time #title-time {
+    display: flex;
+    border-bottom: 2px solid white;
+  }
+
+  body main #time #title-time #temp {
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+  body main #time #title-time h2 {
+    text-align: center;
+    color: white;
+    margin-left: 25px;
+  }
+  
+  body main #time #paragraph-time {
+    margin-left: 20px;
+  }
+  
+  #elaboration {
+    margin-top: 30px;
+    margin-left: 15%;
+  }
+  
+  hr {
+    width: 100%;
+    background-color: azure;
+    border: 1px solid azure;
+    border-radius: 20%;
+    height: 3px;
+  }
+  
+  footer {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  
+
+/*# sourceMappingURL=style.css.map */
