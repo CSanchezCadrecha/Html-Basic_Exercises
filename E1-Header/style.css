@@ -1,0 +1,33 @@
+header {
+    width: 100%;
+    height: 500px;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    padding-top: 150px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+button {
+    background-color: #10b318;
+    color: white;
+    font-size: medium;
+    height: 60px;
+    width: 150px;
+}
+
+button:hover{
+    background-color: white;
+    color:#10b318;
+}
