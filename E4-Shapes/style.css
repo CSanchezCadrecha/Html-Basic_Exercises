@@ -1,0 +1,72 @@
+body{
+    margin-top: 14%;
+}
+
+h1 {
+    margin-left: 39%;
+    font-size: 2.5em; 
+}
+
+#shapes {
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+
+.shapes{
+    margin-right: 50px;
+}
+
+#triangle {
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-bottom: 100px solid yellow; 
+}
+
+#triangle:hover{
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-bottom: 100px solid rgb(154, 77, 226);
+}
+
+#square {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+#square:hover {
+    background-color: rgb(25, 80, 49);
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+#circle {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+#circle:hover {
+    background-color: rgb(231, 126, 41);
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+button{
+    margin-top: 5%;
+    margin-left: 46%;
+    background-color: rgb(171, 171, 190);
+    width: 60px;
+    height: 40px;
+    border-radius: 8%;
+    border:none;
+}
