@@ -1,0 +1,69 @@
+table{
+    width: 550px;
+    margin-left: 400px;
+    background-color: rgb(104, 103, 195);
+    border-collapse: collapse;
+}
+
+caption {
+    height: 55px;
+    background-color: green;
+    
+}
+
+table td{
+    height: 55px;
+}
+
+#tdblack{
+    background-color: black;
+}
+
+#tdteal{
+    background-color: teal;
+}
+
+#tdblue{
+    background-color: blue;
+}
+
+#tdnavy{
+    background-color: navy;
+}
+
+#tdlime{
+    background-color: lime;
+}
+
+#tdwhite{
+    background-color: white;
+}
+
+#tdpurple{
+    background-color: purple;
+}
+
+#tdyellow{
+    background-color: yellow;
+}
+
+#tdolive{
+    background-color: olive;
+}
+
+#tdgrey{
+    background-color: gray;
+}
+
+#tdfuchsia{
+    background-color: fuchsia;
+}
+
+#tdred{
+    background-color: red;
+}
+
+
+#tdgreen{
+    background-color: green;
+}

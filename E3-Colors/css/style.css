@@ -1,0 +1,86 @@
+@import url(table.css);
+
+body{
+    width: 100%;
+    background-color: violet;
+    background-image: url(/fondo.jpg);
+    background-repeat: no-repeat;
+    font-size: medium;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center; 
+
+}
+
+p{
+    font-size:  26px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#black{
+    color: black;
+}
+
+#teal{
+    color: teal;
+}
+
+#blue{
+    color: blue;
+}
+
+#lime{
+    color: lime;
+}
+
+#white{
+    color: white;
+}
+#white{
+    color: white;
+}
+
+#purple{
+    color: purple;
+}
+
+#yellow{
+    color: yellow;
+}
+
+#olive{
+    color: olive;
+}
+
+#red{
+    color: red;
+}
+
+#marron{
+    color: brown;
+}
+
+#gray{
+    color: gray;
+}
+
+#fuchsia{
+    color: fuchsia;
+}
+
+#green{
+    color: green;
+}
+
+#aqua{
+    color: aqua;
+}
+
+#silver{
+    color: silver;
+}
