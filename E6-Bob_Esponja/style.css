@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(172, 230, 237);
+
+}
+
+.margin {
+    margin-left: 31%;
+
+}
+
+#first {
+    width: 500px;
+    height: 400px;
+    background-color: yellow;
+    border: 3px solid black;
+
+}
+
+.eyes {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+
+.eye {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.eyes-color {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.eye-color {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(51, 191, 251);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    position: relative;
+    justify-content: space-around;
+
+}
+
+.pupil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#nose {
+    margin-top: -40px;
+    height: 60px;
+    width: 25px;
+    border-radius: 45%;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    margin-left: 233px;
+    position: relative;
+
+}
+
+#mouth {
+    margin-top: -50px;
+    height: 100px;
+    width: 300px;
+    border-radius: 50%;
+    border-bottom: 5px solid black;
+    margin-left: 100px;
+}
+
+#shirt {
+    width: 500px;
+    height: 75px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+#red-triangle {
+    width: 0;
+    height: 0;
+    border-right: 55px solid transparent;
+    border-top: 55px solid red;
+    border-left: 55px solid transparent;
+    border-bottom: 55px solid transparent;
+    position: relative;
+    margin-left: 38.5%;
+}
+
+
+#rombo {
+    width: 90px;
+    height: 90px;
+    border: 3px solid black;
+    background: red;
+    margin-top: -7.5%;
+    margin-left: 40%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+#trousers {
+    width: 500px;
+    height: 100px;
+    background-color: #6a3d13;
+    border: 3px solid black;
+
+}
+
+#belt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.belt {
+    width: 75px;
+    height: 15px;
+    background-color: black;
+
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <title>Cities</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-1" href="#">Cities in the world</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-3 mb-lg-0">
+            <li class="nav-item p-2">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--------------------------------------------------------------------------------------------------------------->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/pt.jpg" class="d-block w-100" alt="imagen Oporto">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="fw-bold">The most popular city</h1>
+            <h3 class="fw-bold ">Oporto</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/f.png" class="d-block w-100" alt="imagen Florencia">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="fw-bold  rounded-pill bg-dark shadow-lg rounded">Florencia</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="fw-bold  rounded-pill bg-dark shadow-lg rounded">Edimburgo</h3>
+          </div>
+          <img src="assets/e.png" class="d-block w-100" alt="imagen Edimburgo">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <main class=" mt-5">
+    <section id="aside-cards" class="d-flex ms-5 me-5">
+      <aside class="col-2 me-5 rounded bg-dark mb-5">
+        <h6 class="text-light ms-2 mt-2 mb-3">Ranking - Most Visited</h6>
+        <ul class="nav flex-column">
+          <li class="nav-item mt-3">
+            <img class="w-75 ms-4 img-fluid" src="assets/pt.jpg">
+            <div class="d-flex justify-content-end ">
+              <a class="nav-link text-light me-3" href="#">Oporto</a>
+            </div>
+          </li>
+          <li class="nav-item mt-4">
+            <img class="w-75 ms-4" src="assets/f.png">
+            <div class="d-flex justify-content-end ">
+              <a class="nav-link text-light me-3" href="#">Florencia</a>
+            </div>
+          </li>
+          <li class="nav-item mt-4">
+            <img class="w-75 ms-4" src="assets/e.png">
+            <div class="d-flex justify-content-end ">
+              <a class="nav-link text-light me-3" href="#">Edimburgo</a>
+            </div>
+          </li>
+          <li class="nav-item mt-4">
+            <img class="w-75 ms-4" src="assets/praga.png">
+            <div class="d-flex justify-content-end ">
+              <a class="nav-link text-light me-3" href="#">Praga</a>
+            </div>
+          </li>
+          <li class="nav-item mt-4">
+            <img class="w-75 ms-4" src="assets/paris.png">
+            <div class="d-flex justify-content-end ">
+              <a class="nav-link text-light me-3" href="#">Paris</a>
+            </div>
+          </li>
+          <li class="nav-item mt-4">
+            <img class="w-75 ms-4" src="assets/londres.png">
+            <div class="d-flex justify-content-end ">
+              <a class="nav-link text-light me-3" href="#">Londres</a>
+            </div>
+          </li>
+        </ul>
+      </aside>
+      <!------------------------------------------------------------------------------------------------------------------------------->
+      <div class="row row-cols-1 row-cols-sm-2  row-cols-md-3 ">
+        <div class="col">
+          <div class="card shadow mb-5 bg-body rounded">
+            <img class="card-img-top" src="assets/card1.jpg">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-secondary btn-sm rounded-pill bg-dark">Read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow mb-5 bg-body rounded">
+            <img class="card-img-top" src="assets/card2.jpg">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-secondary btn-sm rounded-pill bg-dark">Read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow mb-5 bg-body rounded">
+            <img class="card-img-top" src="assets/card3.jpg">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-secondary btn-sm rounded-pill bg-dark">Read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow mb-5 bg-body rounded">
+            <img class="card-img-top" src="assets/card4.jpg">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-secondary btn-sm rounded-pill bg-dark">Read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow mb-5 bg-body rounded">
+            <img class="card-img-top" src="assets/card5.jpg">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-secondary btn-sm rounded-pill bg-dark">Read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow mb-5 bg-body rounded">
+            <img class="card-img-top" src="assets/card6.png">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-secondary btn-sm rounded-pill bg-dark">Read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="restaurants" class="mt-5 mb-5 text-light bg-dark">
+      <h4 class="pt-1 text-center">Most popular restaurants</h4>
+      <div class="d-flex justify-content-between mt-5 ms-5">
+        <!--class="d-flex mt-3 ms-5 me-3"-->
+        <div>
+          <img src="assets/r1.jpg" class="w-50 rounded-circle mb-2 ms-5" alt="imagen restaurante">
+          <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptatem exercitationem sit
+            debitis
+            doloribus officiis.</p>
+        </div>
+        <div>
+          <img src="assets/r2.png" class="w-50 rounded-circle mb-2 ms-5" alt="imagen restaurante">
+          <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptatem exercitationem sit
+            debitis
+            doloribus officiis.</p>
+        </div>
+        <div>
+          <img src="assets/r8.png" class="w-50 rounded-circle mb-2 ms-5" alt="imagen restaurante">
+          <p class="me-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptatem exercitationem
+            sit debitis
+            doloribus officiis.</p>
+        </div>
+        <div>
+          <img src="assets/r4.jpg" class="w-50 rounded-circle mb-2 ms-5" alt="imagen restaurante">
+          <p class="me-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptatem exercitationem
+            sit debitis
+            doloribus officiis.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+<hr class="me-5 ms-5">
+
+<footer class="d-flex justify-content-between me-5 ms-5">
+  <div class="d-flex">
+    <i class="bi bi-bootstrap-fill me-3"></i>
+    <p>&copy;2021 Company, Inc</p>
+  </div>
+  <div id="icons">
+    <i class="bi bi-building me-3"></i>
+    <i class="bi bi bi-droplet-half me-3"></i>
+    <img src="assets/bus.png">
+  </div>
+</footer>
+
+</html>
